@@ -1,0 +1,9 @@
+.hero {
+    background-image: linear-gradient(rgba(113, 204, 226, 0.6), rgba(113, 204, 226, 0.6)),
+    url(/images/mountains.jpg);
+    height: calc(100vh - 90px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

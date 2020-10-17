@@ -1,7 +1,6 @@
 {
-  "name": "mizuxe-projects",
+  "name": "clear",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +13,16 @@
   "devDependencies": {
     "node-sass": "^4.14.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdnanShaikat/Mizuxe-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdnanShaikat/Mizuxe-Project/issues"
+  },
+  "homepage": "https://github.com/AdnanShaikat/Mizuxe-Project#readme",
+  "description": "",
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "bootstrap": "^4.5.3"
   }
 }
