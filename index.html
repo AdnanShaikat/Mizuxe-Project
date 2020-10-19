@@ -48,10 +48,17 @@
     <!-- END NAVIGATION -->
 
     <!-- STARTED HERO SECTION -->
-    <div class="hero">
-      <div class="hero__text text-center container" style="padding-top: 150px">
+    <div class="hero" style="background-image: linear-gradient(rgba(113, 204, 226, 0.6), rgba(113, 204, 226, 0.6)),
+    url(./images/mountains.jpg);
+    height: calc(100vh - 90px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px; margin-top: 90px;">
+      <div class="hero__text text-center container">
         <div class="row">
-          <div class="col-md-6 text-light ">
+          <div class="col-md-6 text-light m-auto ">
             <p class="display-2">Do Whate You Dream Of...</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, inventore!</p>
             <a href="#" class="btn btn-outline-secondary text-light"><i class="fas fa-arrow-right"></i> Read More</a>
@@ -67,11 +74,27 @@
 
     <!--STARTED FORM SECTION  -->
     <div class="bg-dark p-5">
-      <form class="form-inline container">
-        <input type="text" class="form-control  mr-sm-2" id="username" placeholder="Enter Name">
-        <input type="email" class="form-control mr-sm-2" id="email" placeholder="Email">
-        <input type="text" class="form-control bg-info text-light mr-sm-2" id="password" placeholder="Password">
-      </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form">
+              <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="form">
+              <input type="email" class="form-control" id="email" placeholder="Enter name">
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="form">
+              <button type="submit" class="btn form-control bg-info text-center text-light">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- END FORM SECTION -->
 
@@ -124,7 +147,7 @@
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              <button class="btn text-center font-weight-bold btn-block text-left" type="button" data-toggle="collapse"
                 data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Collapsible Group Item #1
               </button>
